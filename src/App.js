@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import Input from "./components/Input";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       {/* <Button status="resolve">Signup</Button>
       <Button status="reject">Signin</Button>
       <Input /> */}
+      <Footer />
     </div>
   );
 }
